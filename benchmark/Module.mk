@@ -1,7 +1,7 @@
-LOCAL_MODULE := benchmark-runner
-LOCAL_CPPFLAGS := -I.
-LOCAL_SOURCE_FILES := $(call rwildcard,$(call get-path),*.cpp)
-LOCAL_LIBRARIES :=
+MODULE_NAME := benchmark-runner
+MODULE_CPPFLAGS := -I.
+MODULE_SOURCE_FILES := $(call rwildcard,$(call get-path),*.cpp)
+MODULE_LIBRARIES :=
 
 # $(call use-fmt)
 # $(call use-google-benchmark)

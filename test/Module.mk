@@ -1,7 +1,7 @@
-LOCAL_MODULE := test-runner
-LOCAL_CPPFLAGS := -I.
-LOCAL_SOURCE_FILES := $(call rwildcard,$(call get-path),*.cpp)
-LOCAL_LIBRARIES :=
+MODULE_NAME := test-runner
+MODULE_CPPFLAGS := -I.
+MODULE_SOURCE_FILES := $(call rwildcard,$(call get-path),*.cpp)
+MODULE_LIBRARIES :=
 
 # $(call use-catch)
 # $(call use-fmt)
