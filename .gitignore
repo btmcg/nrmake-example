@@ -1,8 +1,9 @@
 # dependency files
 *.d
 
-# bin/lib output dirs
+# dist dirs
 bin/
+include/
 lib/
 
 # compiled object files
@@ -12,6 +13,12 @@ lib/
 
 # ctags
 tags
+
+# executables
+benchmark/benchmark-runner
+test/test-runner
+src/c_executable/c_executable
+src/executable/executable
 
 # benchmark lib that needs to be built and installed
 third_party/google-benchmark-clang
