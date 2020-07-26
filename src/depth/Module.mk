@@ -1,2 +1,2 @@
-MODULE_SOURCE_FILES := $(call rwildcard,$(call get-path),*.cpp)
-$(call add-shared-library-module,$(call get-path))
+MODULE_SOURCE_FILES := $(call rwildcard,$(get-path),*.cpp)
+$(call add-shared-library-module,$(get-path))
