@@ -21,8 +21,7 @@ src/c_executable/c_executable
 src/executable/executable
 
 # benchmark lib that needs to be built and installed
-third_party/google-benchmark-clang
-third_party/google-benchmark-gcc
+third_party/google-benchmark
 
 # build system artifacts
 src/version.h
